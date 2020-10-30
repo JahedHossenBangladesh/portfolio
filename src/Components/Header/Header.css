@@ -1,0 +1,33 @@
+.header {
+    text-align: center;
+    height: 40px;
+    
+    
+   
+}
+.header nav {
+    padding-top:5px;
+}
+.header nav a {
+       text-decoration: none;
+       margin-right: 30px;
+       padding:10px;
+       color:black;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+
+  
+}
+.effect:hover {
+    border-bottom: 2px solid gray;
+    background-color: transparent !important;
+
+}
+
+.notHover:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
