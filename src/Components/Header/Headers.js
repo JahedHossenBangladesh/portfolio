@@ -19,7 +19,7 @@ const Headers = () => {
        
       </li>
       <li class="nav-item">
-        <Link className="notHover"> <a class="nav-link ml-5 addColor effect" > Blog</a></Link>
+        <Link to="/blog"className="notHover"> <a class="nav-link ml-5 addColor effect" > Blog</a></Link>
        
       </li>
       <li class="nav-item">
