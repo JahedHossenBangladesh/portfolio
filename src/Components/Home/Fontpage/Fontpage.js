@@ -1,5 +1,5 @@
 import React from 'react';
-import Cv from '../../Cvimg/ResumeJahedHossen-pages-deleted.pdf'
+import Cv from '../../Cvimg/Resume-Jahed-Hossen.pdf'
 const Fontpage = () => {
     return (
         <div className="row">
