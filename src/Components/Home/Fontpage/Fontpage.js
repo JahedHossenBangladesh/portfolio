@@ -1,5 +1,5 @@
 import React from 'react';
-import Cv from '../../Cv/Resume of Jahed Hossen (8).pdf'
+import Cv from '../../Cvimg/ResumeJahedHossen-pages-deleted.pdf'
 const Fontpage = () => {
     return (
         <div className="row">
@@ -12,13 +12,13 @@ const Fontpage = () => {
                 <div style={{marginTop:"20px",paddingLeft:"200px"}}>
                 <h2 >A front-end Developer</h2>
                 <br/>
-                <button type="button" class="btn btn-primary btn-lg"><a href={Cv} download style={{textDecoration:"none",color:"white"}}>Download Resume</a></button>
+                <button type="button" class="btn  btn-lg" style={{backgroundColor:"#0A77E7"}}><a href={Cv} download style={{textDecoration:"none",color:"white"}}>Download Resume</a></button>
                 </div>
 
             </div>
             <div className="col-md-6">
                 <div style={{marginTop:"60px", paddingRight:"100px",marginLeft:"180px"}}>
-              <img src="https://i.imgur.com/rPN3YNQ.png" alt=""/>
+              <img style={{border:"1px solid #0A77E7", borderRadius:"50%"}} src="https://i.imgur.com/rPN3YNQ.png" alt=""/>
                 </div>
                
             </div>

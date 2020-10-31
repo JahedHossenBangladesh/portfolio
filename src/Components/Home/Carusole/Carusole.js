@@ -1,22 +1,26 @@
-import React from 'react';
+import React from 'react'
+import im1 from '../../../Image/project2.PNG';
+import im2 from '../../../Image/project3.PNG'
 
 const Carusole = () => {
   return (
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div className="p-5" style={{ backgroundColor:'#779FC8',height:'500px',width:'',marginTop:"150px"}} >
+      <h2 className='text-center text-light '>Here are some of  <span style={{color: '#0A77E7'}}>my works</span></h2>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner"style={{ height:'400px'}} >
       <div class="carousel-item active">
-        <img class="d-block w-100" src="..." alt="First slide"/>
+        <img class="d-block w-100" style={{ height:'300px'}}  src="https://i.imgur.com/IMJBI3x.png" alt="First slide"/>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="..." alt="Second slide"/>
+        <img class="d-block w-100"style={{ height:'300px'}}   src={im1} alt="Second slide"/>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="..." alt="Third slide"/>
+        <img class="d-block w-100" style={{ height:'300px'}}  src={im2} alt="Third slide"/>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -28,6 +32,8 @@ const Carusole = () => {
       <span class="sr-only">Next</span>
     </a>
   </div>
+    </div>
+    
   );
 };
 
