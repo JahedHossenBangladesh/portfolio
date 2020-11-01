@@ -11,23 +11,23 @@ const Headers = () => {
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto pl-5">
       <li class="nav-item active">
-      <Link to="/home" className="notHover "><a class="nav-link ml-5 addColor effect" >Home</a></Link>
+      <Link to="/home" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Home</span></a></Link>
        
       </li>
       <li class="nav-item">
-        <Link to="/project" className="notHover"> <a class="nav-link ml-5 addColor effect" > project</a></Link>
+        <Link to="/project" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>project</span> </a></Link>
        
       </li>
       <li class="nav-item">
-        <Link to="/blog"className="notHover"> <a class="nav-link ml-5 addColor effect" > Blog</a></Link>
+        <Link to="/blog"className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></Link>
        
       </li>
       <li class="nav-item">
-        <Link className="notHover"> <a class="nav-link ml-5 addColor effect" > About me</a></Link>
+        <Link className="notHover"> <a class="nav-link ml-5 addColor effect" > <span style={{color:"#0A77E7"}}>About me</span></a></Link>
        
       </li>
       <li class="nav-item ">
-       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" >Resume  </a></Link>
+       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume </span> </a></Link>
       </li>
     
       </ul>
