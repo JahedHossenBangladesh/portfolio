@@ -27,7 +27,7 @@ const Headers = () => {
        
       </li>
       <li class="nav-item ">
-       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume </span> </a></Link>
+       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume</span> </a></Link>
       </li>
     
       </ul>
