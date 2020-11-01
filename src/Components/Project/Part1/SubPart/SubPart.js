@@ -9,7 +9,7 @@ const SubPart = (props) => {
         <div className="col-md-7 mt-2 ml-2 pl-5">
         <div className="card" style={{width:" 40rem"}}>
         <h3>{name}</h3>
-        <a href={link}><img className="card-img-top" src={img} alt="Card image cap"/></a>
+        <a href={link} target="_blank" ><img className="card-img-top" src={img} alt="Card image cap"/></a>
   
  
 </div>
