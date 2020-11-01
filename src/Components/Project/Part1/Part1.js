@@ -25,13 +25,13 @@ const data = [
 
         },
         {
-            img:{im1},
-            name:"Socal-Work",
-            f1:" a",
-            f2:"b ",
-            f3:" c",
-            f4:" d",
-            f5:" 3"
+            img:"https://i.postimg.cc/43wJcrWZ/project3.png",
+            name:"Hotel-website",
+            f1:" Users can select a tourist spot and register by the date    when  the user  go and come back ",
+            f2:"Firebase Authentication for users registration or  login.",
+            f3:"Users can see the hotel of the nearest  place  also can booking.",
+            f4:" ",
+            f5:" "
         }  
   
 
