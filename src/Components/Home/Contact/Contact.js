@@ -5,8 +5,8 @@ const Contact = () => {
         <div className='row mt-5' style={{backgroundColor:"#779FC8"}}>
         <div className="col-md-6 pt-5 pl-5">
 
-<h2> Let us handle your <br/> project, professionally.</h2>
-<p className="text-secondary pt-5">With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>
+<h2> Let me handle your <br/> project, professionally.</h2>
+<p className="text-secondary pt-5" style={{color:"white"}}>With well written codes, I build amazing apps for all platforms, mobile and web apps in general.</p>
 
         </div>
         <div className="col-md-6"> 
