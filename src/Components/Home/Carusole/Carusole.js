@@ -17,10 +17,10 @@ const Carusole = () => {
         <img class="d-block w-100" style={{ height:'300px'}}  src="https://i.imgur.com/IMJBI3x.png" alt="First slide"/>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100"style={{ height:'300px'}}   src={im1} alt="Second slide"/>
+        <img class="d-block w-100"style={{ height:'300px'}}   src="https://i.pixxxels.cc/MKg0XNDs/project2.png" alt="Second slide"/>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" style={{ height:'300px'}}  src={im2} alt="Third slide"/>
+        <img class="d-block w-100" style={{ height:'300px'}}  src="https://i.postimg.cc/8cvvvBN2/project1.png" alt="Third slide"/>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

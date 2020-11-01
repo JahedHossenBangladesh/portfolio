@@ -6,7 +6,7 @@ const data = [
 
         {
             img:"https://i.postimg.cc/8cvvvBN2/project1.png",
-            name:"Socal-Work",
+            name:"E-Learning-website",
             f1:"-Customers can add and remove selected services.",
             f2:" Customer specific dashboard to control orders and provide feedback",
             f3:"Firebase Authentication for customers.",
@@ -16,11 +16,13 @@ const data = [
         {
             img:"https://i.pixxxels.cc/MKg0XNDs/project2.png",
             name:"Socal-Work",
-            f1:"a ",
-            f2:"a ",
-            f3:"a ",
-            f4:" a",
-            f5:"a "
+            f1:"Users can add and register for volunteer tasks. ",
+            f2:"Firebase Authentication for users registration or login.",
+            f3:"Users specific dashboard to check how many tasks they registered for",
+
+            f4:"Admin dashboard to add the new task and check the registered volunteer list",
+            f5:" Admin dashboard to add the new task and check the  registered volunteer lisUsers information stored to the MongoDB database for "
+
         },
         {
             img:{im1},
