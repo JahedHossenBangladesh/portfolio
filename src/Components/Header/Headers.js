@@ -19,7 +19,7 @@ const Headers = () => {
        
       </li>
       <li class="nav-item">
-        <Link to="/blog"className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></Link>
+        <Link to="/blog" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></Link>
        
       </li>
       <li class="nav-item">
@@ -30,6 +30,7 @@ const Headers = () => {
        <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume</span> </a></Link>
       </li>
     
+     
       </ul>
     
   </div>

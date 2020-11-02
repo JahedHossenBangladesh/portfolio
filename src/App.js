@@ -12,6 +12,7 @@ import Home from './Components/Home/Home';
 
 import Resume from './Components/Resume/Resume';
 import Project from './Components/Project/Project';
+import Blog from './Components/Blog/Blog';
 
 
 
@@ -30,6 +31,9 @@ function App() {
       </Route>
       <Route  path="/resume">
       <Resume></Resume>
+      </Route>
+      <Route path="/blog">
+        <Blog></Blog>
       </Route>
   </Switch>
   </Router>

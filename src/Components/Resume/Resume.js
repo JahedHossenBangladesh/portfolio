@@ -12,9 +12,9 @@ const Resume = () => {
                 <div>
                 <h1>Jahed Hossen</h1>
                 <h5>Front-end developer &MERN Stack developer</h5>
-                <p style={{ marginBottom: "-40px" }}>Linkedin: <a href=" linkedin.com/in/jahed-hossen-30589b179">click here</a></p>
-                <p style={{ paddingBottom: "-4px" }} >GitHub: <a href=" https://github.com/JahedHossenBangladesh?tab=repositories ">click here</a>   </p>
-                <p style={{ marginTop: "-10px" }} >Website: <a href="https://murmuring-stream-42393.herokuapp.com/?fbclid=IwAR2vS36cIkD_EgipgQsBHQW9krsu9kywdwOQHPEo-MUD8MqpN3M3iZ5-apY">Click here</a></p>
+                <p style={{ marginBottom: "-40px" }}>Linkedin: <a href=" linkedin.com/in/jahed-hossen-30589b179" target="_blank">click here</a></p>
+                <p style={{ paddingBottom: "-4px" }} >GitHub: <a href=" https://github.com/JahedHossenBangladesh?tab=repositories " target="_blank" >click here</a>   </p>
+                <p style={{ marginTop: "-10px" }} >Website: <a href="https://murmuring-stream-42393.herokuapp.com/?fbclid=IwAR2vS36cIkD_EgipgQsBHQW9krsu9kywdwOQHPEo-MUD8MqpN3M3iZ5-apY" target="_blank">Click here</a></p>
                 </div>
             <div>
                 <h2 style={{color:"blue"}}>Project</h2>
