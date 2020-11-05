@@ -21,6 +21,7 @@ const BlogDetail = (props) => {
     const {img,title,description,link} = props.blogInfo;
     const classes = useStyles();
     return (
+        <>
         <div col-md-6>
                    <Card className={classes.root}>
       <CardActionArea>
@@ -47,6 +48,7 @@ const BlogDetail = (props) => {
       </CardActions>
     </Card>
     </div>
+    </>
         
     );
 };
