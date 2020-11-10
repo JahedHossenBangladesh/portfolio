@@ -13,15 +13,17 @@ import Home from './Components/Home/Home';
 import Resume from './Components/Resume/Resume';
 import Project from './Components/Project/Project';
 import Blog from './Components/Blog/Blog';
+import Headers from './Components/Header/Headers';
 
 
 
 function App() {
   return (
     <Router>
+      <Headers/>
       <Switch>
       <Route exact path="/">
-      <Home></Home>
+      <Home/>
       </Route>
      <Route path="/home">
       <Home></Home>
