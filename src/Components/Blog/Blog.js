@@ -26,7 +26,7 @@ const Blog = () => {
   
     return (
         <div>
-            <Headers> </Headers>
+          
             <div className="row" style={{marginTop:"20px"}}>
         <div className="col-md-3"></div>
         <div className="col-md-6">

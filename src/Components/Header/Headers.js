@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Headers = () => {
@@ -14,23 +14,23 @@ const Headers = () => {
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto pl-5">
       <li class="nav-item active">
-      <Link to="/home" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Home</span></a></Link>
+      <NavLink to="/home" activeStyle={{borderBottom:"1px solid #0A77E7"}} className="notHover nav-link ml-5 addColor"><span style={{color:"#0A77E7"}}>Home</span></NavLink>
        
       </li>
       <li class="nav-item">
-        <Link to="/project" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>project</span> </a></Link>
+        <NavLink to="/project" activeStyle={{borderBottom:"1px solid #0A77E7"}}  className="notHover nav-link ml-5 addColor"> <span style={{color:"#0A77E7"}}>project</span> </NavLink>
        
       </li>
       <li class="nav-item">
-        <Link to="/blog" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></Link>
+        <NavLink to="/blog" activeStyle={{borderBottom:"1px solid #0A77E7"}}  className="notHover nav-link ml-5 addColor"> <span style={{color:"#0A77E7"}}>Blog</span> </NavLink>
        
       </li>
       <li class="nav-item">
-        <Link className="notHover"> <a class="nav-link ml-5 addColor effect" > <span style={{color:"#0A77E7"}}>About me</span></a></Link>
+        <NavLink className="notHover nav-link ml-5 addColor " activeStyle={{borderBottom:"1px solid #0A77E7"}}  > <span style={{color:"#0A77E7"}}>About me</span></NavLink>
        
       </li>
       <li class="nav-item ">
-       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume</span> </a></Link>
+       <NavLink to="/resume" activeStyle={{borderBottom:"1px solid #0A77E7"}}  className="notHover nav-link ml-5 addColor "><span style={{color:"#0A77E7"}}>Resume</span> </NavLink>
       </li>
     
      

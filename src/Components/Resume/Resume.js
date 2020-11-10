@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Resume = () => {
     return (
         <div>
-            <Headers></Headers>
+            
  <div className="row">
             <div className="col-md-8" style={{ paddingRight: "", marginTop: "20px" }}>
                 <div>

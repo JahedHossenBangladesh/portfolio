@@ -9,7 +9,7 @@ import Fontpage from './Fontpage/Fontpage';
 const Home = () => {
     return (
         <div>
-            <Headers></Headers>
+           
             <Fontpage></Fontpage>
              <Carusole></Carusole>
              <Contact></Contact>
