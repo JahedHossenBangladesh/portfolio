@@ -20,6 +20,10 @@ const SubPart = (props) => {
 
 
     </div>
+
+
+
+    
     <div className="col-md-3 mt-5 one-edge-shadow">
 <p>{f1} <br/>{f2} <br/> {f3} <br/> {f4} <br/> {f5}</p>
     </div>
