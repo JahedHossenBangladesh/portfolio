@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Headers = () => {
@@ -18,19 +18,19 @@ const Headers = () => {
        
       </li>
       <li class="nav-item">
-        <NavLink to="/project" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>project</span> </a></NavLink>
+        <Link to="/project" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>project</span> </a></Link>
        
       </li>
       <li class="nav-item">
-        <NavLink to="/blog" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></NavLink>
+        <Link to="/blog" className="notHover"> <a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Blog</span> </a></Link>
        
       </li>
       <li class="nav-item">
-        <NavLink className="notHover"> <a class="nav-link ml-5 addColor effect" > <span style={{color:"#0A77E7"}}>About me</span></a></NavLink>
+        <Link className="notHover"> <a class="nav-link ml-5 addColor effect" > <span style={{color:"#0A77E7"}}>About me</span></a></Link>
        
       </li>
       <li class="nav-item ">
-       <NavLink to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume</span> </a></NavLink>
+       <Link to="/resume" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Resume</span> </a></Link>
       </li>
     
      
