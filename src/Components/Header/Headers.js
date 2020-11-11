@@ -11,7 +11,7 @@ const Headers = () => {
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto pl-5">
       <li class="nav-item active">
-      <Link to="/" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Home</span></a></Link>
+      <Link to="/home" className="notHover "><a class="nav-link ml-5 addColor effect" ><span style={{color:"#0A77E7"}}>Home</span></a></Link>
        
       </li>
       <li class="nav-item">
