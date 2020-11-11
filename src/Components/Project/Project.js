@@ -5,7 +5,7 @@ import Part1 from './Part1/Part1';
 const Project = () => {
     return (
         <div>
-            
+              <Headers/>
             <Part1></Part1>
         </div>
     );

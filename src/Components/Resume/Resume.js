@@ -9,6 +9,7 @@ const Resume = () => {
             
  <div className="row">
             <div className="col-md-8" style={{ paddingRight: "", marginTop: "20px" }}>
+            <Headers/>
                 <div>
                 <h1>Jahed Hossen</h1>
                 <h5>Front-end developer &MERN Stack developer</h5>

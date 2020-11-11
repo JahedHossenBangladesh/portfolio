@@ -20,7 +20,7 @@ import Headers from './Components/Header/Headers';
 function App() {
   return (
     <Router>
-      <Headers/>
+    
       <Switch>
       <Route exact path="/">
       <Home/>
