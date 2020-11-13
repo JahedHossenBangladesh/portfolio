@@ -14,7 +14,7 @@ const Carusole = () => {
     </ol>
     <div class="carousel-inner"style={{ height:'400px'}} >
       <div class="carousel-item active">
-        <img class="d-block w-100" style={{ height:'300px'}}  src="https://i.imgur.com/IMJBI3x.png" alt="First slide"/>
+        <img class="d-block w-100" style={{ height:'300px'}}  src={im2} alt="First slide"/>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100"style={{ height:'300px'}}   src="https://i.pixxxels.cc/MKg0XNDs/project2.png" alt="Second slide"/>
